@@ -1,0 +1,54 @@
+body {
+    background-color: pink;
+    color: deeppink;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 80;
+    height: auto;
+    max-width: 180px;
+
+    border-radius: 50%;
+}
+
+.user-name {
+text-align: center;
+
+padding: 30px;
+font-size: 28;
+
+}
+
+.links {
+
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid hotpink;
+    border-width: 2px;
+    padding: 15px;
+
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 40px;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: solid;
+    color:deeppink;
+    transition: color 1s;
+}
+
+a:hover {
+    color: white;
+    background-color: hotpink;
+}
